@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fem-product-preview-card/static/css/main.44b654b8.css",
-    "main.js": "/fem-product-preview-card/static/js/main.70cc2e8a.js",
+    "main.js": "/fem-product-preview-card/static/js/main.e813fe2c.js",
     "static/js/787.0e289b6b.chunk.js": "/fem-product-preview-card/static/js/787.0e289b6b.chunk.js",
     "static/media/image-product-desktop.jpg": "/fem-product-preview-card/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
     "static/media/image-product-mobile.jpg": "/fem-product-preview-card/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/fem-product-preview-card/index.html",
     "static/media/icon-cart.svg": "/fem-product-preview-card/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
     "main.44b654b8.css.map": "/fem-product-preview-card/static/css/main.44b654b8.css.map",
-    "main.70cc2e8a.js.map": "/fem-product-preview-card/static/js/main.70cc2e8a.js.map",
+    "main.e813fe2c.js.map": "/fem-product-preview-card/static/js/main.e813fe2c.js.map",
     "787.0e289b6b.chunk.js.map": "/fem-product-preview-card/static/js/787.0e289b6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44b654b8.css",
-    "static/js/main.70cc2e8a.js"
+    "static/js/main.e813fe2c.js"
   ]
 }

@@ -5,11 +5,9 @@ import addToCart from '../images/icon-cart.svg';
 import './Card.scss';
 
 export class Card extends Component {
-  width = 0;
 
   windowWidth = () => { 
-    this.width = window.innerWidth;
-    this.setState({"width": this.width})
+    this.setState({"width": window.innerWidth})
   }
 
   componentDidMount() {
@@ -20,7 +18,7 @@ export class Card extends Component {
     return (
       <div className='card'>
         <div className="card__image">
-          <img src={this.width > 375 ? perfumeDesktop : perfumeMobile} alt="perfume" />
+          <img src={window.innerWidth > 375 ? perfumeDesktop : perfumeMobile} alt="perfume" />
         </div>
         <div className="card__content">
           <h2 className="card__content--type">PERFUME</h2>

@@ -6,14 +6,6 @@ import './Card.scss';
 
 export class Card extends Component {
 
-  windowWidth = () => {
-    this.setState({ "width": window.innerWidth })
-  }
-
-  componentDidMount() {
-    window.addEventListener("resize", this.windowWidth)
-  }
-
   render() {
     return (
       <div className='card'>

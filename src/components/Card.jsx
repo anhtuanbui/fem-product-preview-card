@@ -6,8 +6,8 @@ import './Card.scss';
 
 export class Card extends Component {
 
-  windowWidth = () => { 
-    this.setState({"width": window.innerWidth})
+  windowWidth = () => {
+    this.setState({ "width": window.innerWidth })
   }
 
   componentDidMount() {
@@ -18,16 +18,21 @@ export class Card extends Component {
     return (
       <div className='card'>
         <div className="card__image">
-          <img src={window.innerWidth > 375 ? perfumeDesktop : perfumeMobile} alt="perfume" />
+          <picture>
+            <source media="(min-width:375px)" srcSet={perfumeDesktop}/>
+            <img src={perfumeMobile} alt="Gabrielle Essence Eau De Parfum" />
+          </picture>
+
+          {/* <img src={window.innerWidth > 375 ? perfumeDesktop : perfumeMobile} alt="perfume" /> */}
         </div>
         <div className="card__content">
-          <h2 className="card__content--type">PERFUME</h2>
+          <p className="card__content--type">PERFUME</p>
           <h1 className="card__content--title">Gabrielle Essence Eau De Parfum</h1>
-          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          <p className='card__content--info'>A floral, solar and voluptuous interpretation composed by Olivier Polge,
             Perfumer-Creator for the House of CHANEL.</p>
           <div className="card__content--price">
-            <h3>$149.99</h3>
-            <h4>$169.99</h4>
+            <p className='card__content--price-main'>$149.99</p>
+            <p className='card__content--price-old'>$169.99</p>
           </div>
           <button>
             <img src={addToCart} alt="add to cart" />

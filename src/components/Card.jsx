@@ -24,7 +24,7 @@ export class Card extends Component {
             Perfumer-Creator for the House of CHANEL.</p>
           <div className="card__content--price">
             <p className='card__content--price-main'>$149.99</p>
-            <p className='card__content--price-old'>$169.99</p>
+            <del className='card__content--price-old'>$169.99<span className='sr-only'>old price</span></del>
           </div>
           <button>
             <img src={addToCart} alt="add to cart" />

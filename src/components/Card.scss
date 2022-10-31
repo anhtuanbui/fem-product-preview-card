@@ -33,11 +33,11 @@
     padding: 2rem;
     box-sizing: border-box;
     @include mobile {
-        border-radius: 0 0 10px 10px;
-        overflow: hidden;
-        background-color: $color__neutral--white;
-        padding: 1.5rem;
-      }
+      border-radius: 0 0 10px 10px;
+      overflow: hidden;
+      background-color: $color__neutral--white;
+      padding: 1.5rem;
+    }
 
     &--type {
       font-family: $typography__font-family--sans;
@@ -81,11 +81,13 @@
         color: $color__neutral--very-dark-blue;
         margin-right: 1.5rem;
         color: $color__primary--dark-cyan;
-        margin: 2rem 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
 
         @include mobile {
-            margin: 1rem 0;
-          }
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
       }
 
       &-old {
